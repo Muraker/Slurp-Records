@@ -1,0 +1,319 @@
+/* //////////////////////////////////////////// GLOBAL */
+
+@font-face {
+    font-family: 'slurpetteregular';
+    src: url('font/slurpette.eot');
+    src: url('font/slurpette.eot?#iefix') format('embedded-opentype'),
+         url('font/slurpette.woff') format('woff'),
+         url('font/slurpette.ttf') format('truetype'),
+         url('font/slurpette.svg#slurpetteregular') format('svg');
+    font-weight: normal;
+    font-style: normal;
+
+}
+
+html {
+	overflow-x: hidden;
+	overflow-y: auto;
+	background-color: black;
+	padding: 0;
+	margin: 0;
+	
+	background-color: #000000;
+	
+	background-image: url('stickers-sq-anm.gif');
+	
+	background-size: auto;
+    
+    background-repeat: repeat;
+    background-attachment: fixed;
+    background-position: center;
+}
+	
+body {
+	font-family: slurpetteregular, "Courier New", Courier, mono, monospace;
+	font-size: 16px;
+	line-height: 16px;
+	font-weight: normal !important;
+	
+	color: black;
+	
+	padding: 0;
+	margin: 0;
+	cursor: default;
+	width: 100%;
+	height: 100%;
+}
+
+
+
+hr {
+	border-top: 1px dotted transparent;
+	border-left: 1px dotted transparent;
+	border-right: 1px dotted transparent;
+	border-bottom: 1px dotted transparent;
+}
+
+h1 {
+	font-size: 32px;
+	line-height: 32px;
+	font-weight: normal !important;
+	
+	padding: 0 10px 10px 10px;
+	margin: -10px 0 0 35px;
+	z-index: 1000;
+	clear: both;
+}
+	
+p {
+	padding: 10px;
+	margin: 0 0 0 35px;
+	z-index: 1000;
+	clear: both;
+}
+
+.div {
+	padding: 10px 10px 0 10px;
+	margin: 0;
+	z-index: 1000;
+	clear: both;
+}
+	
+img {
+	margin: 0;
+	padding: 0;
+	border: none;
+	outline: none;
+}
+
+.logo {
+
+-webkit-transition: -webkit-transform 0.4s ease-in-out;
+-moz-transition: -moz-transform 0.4s ease-in-out;
+transition: transform 0.4s ease-in-out;
+}
+
+.logo:hover {
+-webkit-transform: rotate(0deg);
+-moz-transform: rotate(0deg);
+-o-transform: rotate(0deg);
+transform: rotate(0deg);
+}
+
+#slurp_play {
+	max-width: 520px;
+	text-align: left;
+	background-color: white;
+	margin: 0;
+	padding-bottom: 20px;
+	
+/* 	background-image: url('http://www.slurprecords.com/vid_20150214_030713.gif'); */
+	
+	-webkit-background-size: 100% 100%;
+    -moz-background-size: 100% 100%;
+    -o-background-size: 100% 100%;
+    background-size: 100% 100%;
+    
+    background-repeat: no-repeat;
+    background-attachment: fixed;
+    background-position: center; 
+	
+	
+	}
+	
+	
+#slurp_play {
+  
+/*   margin-left: -95px; */
+  
+  outline: 20px solid transparent;
+  
+  background-color: transparent;
+  color: white;
+  
+-webkit-transition: all 300ms cubic-bezier(0.000, 0.005, 0.265, 1); /* older webkit */
+-webkit-transition: all 300ms cubic-bezier(0.000, 0.005, 0.265, 1.550); 
+   -moz-transition: all 300ms cubic-bezier(0.000, 0.005, 0.265, 1.550); 
+     -o-transition: all 300ms cubic-bezier(0.000, 0.005, 0.265, 1.550); 
+        transition: all 300ms cubic-bezier(0.000, 0.005, 0.265, 1.550); /* custom */
+
+-webkit-transition-timing-function: cubic-bezier(0.000, 0.005, 0.265, 1); /* older webkit */
+-webkit-transition-timing-function: cubic-bezier(0.000, 0.005, 0.265, 1.550); 
+   -moz-transition-timing-function: cubic-bezier(0.000, 0.005, 0.265, 1.550); 
+     -o-transition-timing-function: cubic-bezier(0.000, 0.005, 0.265, 1.550); 
+        transition-timing-function: cubic-bezier(0.000, 0.005, 0.265, 1.550); /* custom */
+}
+ 
+#slurp_play:hover {
+
+	outline: 20px solid white;
+
+	background-color: white;
+	color: black;
+
+-webkit-transition: all 300ms cubic-bezier(0.000, 0.005, 0.265, 1); /* older webkit */
+-webkit-transition: all 300ms cubic-bezier(0.000, 0.005, 0.265, 1.550);
+   -moz-transition: all 300ms cubic-bezier(0.000, 0.005, 0.265, 1.550);
+     -o-transition: all 300ms cubic-bezier(0.000, 0.005, 0.265, 1.550);
+        transition: all 300ms cubic-bezier(0.000, 0.005, 0.265, 1.550); /* custom */
+
+-webkit-transition-timing-function: cubic-bezier(0.000, 0.005, 0.265, 1); /* older webkit */
+-webkit-transition-timing-function: cubic-bezier(0.000, 0.005, 0.265, 1.550);
+   -moz-transition-timing-function: cubic-bezier(0.000, 0.005, 0.265, 1.550);
+     -o-transition-timing-function: cubic-bezier(0.000, 0.005, 0.265, 1.550);
+        transition-timing-function: cubic-bezier(0.000, 0.005, 0.265, 1.550); /* custom */
+          
+  
+}
+
+#slurp_play img.logo {
+	
+	filter:invert(100%);
+	-webkit-filter:invert(100%);
+     filter:progid:DXImageTransform.Microsoft.BasicImage(invert='1');
+     
+     -webkit-transition: all 300ms cubic-bezier(0.000, 0.005, 0.265, 1); /* older webkit */
+-webkit-transition: all 300ms cubic-bezier(0.000, 0.005, 0.265, 1.550); 
+   -moz-transition: all 300ms cubic-bezier(0.000, 0.005, 0.265, 1.550); 
+     -o-transition: all 300ms cubic-bezier(0.000, 0.005, 0.265, 1.550); 
+        transition: all 300ms cubic-bezier(0.000, 0.005, 0.265, 1.550); /* custom */
+
+-webkit-transition-timing-function: cubic-bezier(0.000, 0.005, 0.265, 1); /* older webkit */
+-webkit-transition-timing-function: cubic-bezier(0.000, 0.005, 0.265, 1.550); 
+   -moz-transition-timing-function: cubic-bezier(0.000, 0.005, 0.265, 1.550); 
+     -o-transition-timing-function: cubic-bezier(0.000, 0.005, 0.265, 1.550); 
+        transition-timing-function: cubic-bezier(0.000, 0.005, 0.265, 1.550); /* custom */
+ }
+ 
+ #slurp_play:hover img.logo {
+	
+	filter:invert(0%);
+	-webkit-filter:invert(0%);
+     filter:progid:DXImageTransform.Microsoft.BasicImage(invert='0');
+ }
+
+#slurp_play a {
+	color: white;
+	
+	-webkit-transition: all 300ms cubic-bezier(0.000, 0.005, 0.265, 1); /* older webkit */
+-webkit-transition: all 300ms cubic-bezier(0.000, 0.005, 0.265, 1.550); 
+   -moz-transition: all 300ms cubic-bezier(0.000, 0.005, 0.265, 1.550); 
+     -o-transition: all 300ms cubic-bezier(0.000, 0.005, 0.265, 1.550); 
+        transition: all 300ms cubic-bezier(0.000, 0.005, 0.265, 1.550); /* custom */
+
+-webkit-transition-timing-function: cubic-bezier(0.000, 0.005, 0.265, 1); /* older webkit */
+-webkit-transition-timing-function: cubic-bezier(0.000, 0.005, 0.265, 1.550); 
+   -moz-transition-timing-function: cubic-bezier(0.000, 0.005, 0.265, 1.550); 
+     -o-transition-timing-function: cubic-bezier(0.000, 0.005, 0.265, 1.550); 
+        transition-timing-function: cubic-bezier(0.000, 0.005, 0.265, 1.550); /* custom */
+}
+
+#slurp_play:hover a {
+	color: #6666ff
+}
+
+#slurp_play:hover a:hover {
+	color: #ff6666
+}
+
+a, li { color: #6666ff; text-decoration: none }
+a:hover, li:hover { color: #ff6666; text-decoration: none }
+a, a:hover, a:active, a:focus { outline: none }
+
+.logo {
+-webkit-transform: rotate(180deg);
+-moz-transform: rotate(180deg);
+-o-transform: rotate(180deg);
+transform: rotate(180deg);
+}
+
+.logo:hover {
+-webkit-transform: rotate(0deg);
+-moz-transform: rotate(0deg);
+-o-transform: rotate(0deg);
+transform: rotate(0deg);
+}
+
+
+
+#slurp_player {
+	float: left;
+	width: 400px;
+	height: 110px;
+	background-color: #e8e8e8;
+	margin: 10px;
+	-webkit-box-shadow: 0px 0px 4px 0px #e8e8e8;
+	box-shadow: 0px 0px 4px 0px #e8e8e8}
+
+
+input {
+	margin: 0;
+	padding: 0;
+}
+
+form {
+	background-color: #ff6666;
+	padding: 35px;
+	margin: 0 0 0 0;
+	width: 190px;
+	
+background: #ff6666; /* fallback */
+	background:
+		linear-gradient(135deg, transparent 10px, #ff6666 0) top left,
+		linear-gradient(225deg, transparent 10px, #ff6666 0) top right,
+		linear-gradient(315deg, transparent 10px, #ff6666 0) bottom right,
+		linear-gradient(45deg,  transparent 10px, #ff6666 0) bottom left;
+	background-size: 50% 50%;
+	background-repeat: no-repeat;
+	
+		background-image:
+		radial-gradient(circle at 0 0, rgba(204,0,0,0) 20px, #ff6666 20px),
+		radial-gradient(circle at 100% 0, rgba(204,0,0,0) 20px, #ff6666 20px),
+		radial-gradient(circle at 100% 100%, rgba(204,0,0,0) 20px, #ff6666 20px),
+		radial-gradient(circle at 0 100%, rgba(204,0,0,0) 20px, #ff6666 20px);
+
+}
+
+input {
+	font-family: slurpetteregular, "Courier New", Courier, mono, monospace !important;
+	font-size: 16px;
+	line-height: 16px;
+	font-weight: normal !important;
+}
+
+#signup_email {
+	width: 163px;
+	margin: 0;
+	padding: 10px;
+	
+	background-color: #ffffff;
+	border: 0px solid transparent;
+	
+}
+
+.submit {
+	margin: 0;
+	padding: 10px;
+	
+	background-color: #6666ff;
+	color: white;
+	border: none;
+}
+
+iframe{
+	background-color: transparent;
+	overflow-x: hidden;
+	
+	padding: 0;
+	margin: 0;
+	
+	z-index: 1;
+	
+	/*
+	-webkit-border-radius: 4px;
+	-moz-border-radius: 4px;
+	border-radius: 4px;
+	*/
+}
+
+
